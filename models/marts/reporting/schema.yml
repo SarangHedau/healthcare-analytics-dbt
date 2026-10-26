@@ -1,0 +1,42 @@
+version: 2
+
+models:
+  - name: rpt_monthly_healthcare_kpis
+    description: >
+      Monthly healthcare KPIs showing encounter volume, active patients,
+      active providers, and month-over-month encounter changes.
+    columns:
+      - name: report_month
+        description: Month used to aggregate healthcare activity.
+        data_tests:
+          - not_null
+          - unique
+      - name: total_encounters
+        description: Total accepted encounters recorded during the month.
+        data_tests:
+          - not_null
+
+  - name: rpt_provider_performance
+    description: >
+      Provider-level summary of encounter volume, unique patients,
+      and first and last encounter dates.
+    columns:
+      - name: provider_id
+        description: Unique identifier for each provider.
+        data_tests:
+          - not_null
+          - unique
+
+  - name: rpt_claims_financials
+    description: >
+      Monthly claims and financial summary grouped by payer and claim type.
+      Includes billed, paid, and outstanding amounts.
+    columns:
+      - name: report_month
+        description: Month in which the claim was recorded.
+        data_tests:
+          - not_null
+      - name: total_claims
+        description: Number of accepted claims in the reporting group.
+        data_tests:
+          - not_null

@@ -1,0 +1,79 @@
+
+version: 2
+
+models:
+  - name: stg_patients
+    description: "Standardized patient records from the synthetic EMR source."
+    columns:
+      - name: patient_id
+        description: "Unique identifier assigned to a patient."
+        data_tests:
+          - not_null
+          - unique
+
+      - name: birth_date
+        data_tests:
+          - not_null
+
+      - name: gender
+        data_tests:
+          - not_null
+
+  - name: stg_providers
+    description: "Standardized healthcare provider records."
+    columns:
+      - name: provider_id
+        data_tests:
+          - not_null
+          - unique
+
+  - name: stg_encounters
+    description: "Standardized patient encounters."
+    columns:
+      - name: encounter_id
+        data_tests:
+          - not_null
+          - unique
+
+      - name: patient_id
+        data_tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('stg_patients')
+                field: patient_id
+
+      - name: provider_id
+        data_tests:
+          - relationships:
+              arguments:
+                to: ref('stg_providers')
+                field: provider_id
+
+      - name: encounter_date
+        data_tests:
+          - not_null
+
+  - name: stg_claims
+    description: "Standardized healthcare billing and insurance claims."
+    columns:
+      - name: claim_id
+        data_tests:
+          - not_null
+          - unique
+
+      - name: encounter_id
+        data_tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('stg_encounters')
+                field: encounter_id
+
+      - name: billed_amount
+        data_tests:
+          - not_null
+
+      - name: paid_amount
+        data_tests:
+          - not_null

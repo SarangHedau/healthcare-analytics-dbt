@@ -1,0 +1,501 @@
+provider_id,provider_name,specialty,department,employment_status,hire_date
+PR0001,Provider 0001,Family Medicine,Outpatient,active,2015-06-30
+PR0002,Provider 0002,Pediatrics,Inpatient,active,2025-03-06
+PR0003,Provider 0003,Emergency Medicine,Outpatient,active,2010-09-18
+PR0004,Provider 0004,Cardiology,Outpatient,active,2021-05-02
+PR0005,Provider 0005,Endocrinology,Outpatient,active,2024-07-29
+PR0006,Provider 0006,Emergency Medicine,Diagnostics,active,2023-03-21
+PR0007,Provider 0007,Orthopedics,Outpatient,active,2013-07-31
+PR0008,Provider 0008,Oncology,Emergency,active,2014-10-30
+PR0009,Provider 0009,Neurology,Outpatient,active,2012-03-03
+PR0010,Provider 0010,Neurology,Emergency,active,2010-12-22
+PR0011,Provider 0011,Dermatology,Specialty Clinic,active,2018-06-28
+PR0012,Provider 0012,Family Medicine,Specialty Clinic,active,2024-02-06
+PR0013,Provider 0013,Endocrinology,Emergency,active,2025-10-20
+PR0014,Provider 0014,Family Medicine,Outpatient,active,2016-06-28
+PR0015,Provider 0015,Family Medicine,Inpatient,active,2018-07-11
+PR0016,Provider 0016,Orthopedics,Diagnostics,active,2018-03-08
+PR0017,Provider 0017,Internal Medicine,Emergency,active,2025-01-12
+PR0018,Provider 0018,Orthopedics,Outpatient,active,2013-11-02
+PR0019,Provider 0019,Emergency Medicine,Inpatient,active,2018-07-06
+PR0020,Provider 0020,Orthopedics,Specialty Clinic,active,2017-04-10
+PR0021,Provider 0021,Cardiology,Inpatient,active,2017-01-28
+PR0022,Provider 0022,Oncology,Emergency,active,2022-09-21
+PR0023,Provider 0023,Neurology,Inpatient,active,2018-11-16
+PR0024,Provider 0024,Dermatology,Inpatient,active,2015-07-14
+PR0025,Provider 0025,Emergency Medicine,Specialty Clinic,active,2023-02-10
+PR0026,Provider 0026,Oncology,Specialty Clinic,active,2014-12-02
+PR0027,Provider 0027,Internal Medicine,Specialty Clinic,active,2011-01-21
+PR0028,Provider 0028,Family Medicine,Inpatient,active,2025-04-06
+PR0029,Provider 0029,Oncology,Specialty Clinic,active,2018-07-24
+PR0030,Provider 0030,Endocrinology,Diagnostics,active,2022-05-30
+PR0031,Provider 0031,Cardiology,Outpatient,active,2022-01-16
+PR0032,Provider 0032,Orthopedics,Emergency,active,2019-10-02
+PR0033,Provider 0033,Internal Medicine,Diagnostics,active,2015-11-28
+PR0034,Provider 0034,Emergency Medicine,Inpatient,active,2012-05-21
+PR0035,Provider 0035,Orthopedics,Specialty Clinic,active,2013-06-06
+PR0036,Provider 0036,Neurology,Inpatient,active,2021-11-23
+PR0037,Provider 0037,Cardiology,Specialty Clinic,active,2010-06-09
+PR0038,Provider 0038,Family Medicine,Emergency,active,2016-11-24
+PR0039,Provider 0039,Pediatrics,Outpatient,active,2022-09-22
+PR0040,Provider 0040,Family Medicine,Outpatient,active,2011-07-21
+PR0041,Provider 0041,Emergency Medicine,Inpatient,active,2020-08-29
+PR0042,Provider 0042,Emergency Medicine,Inpatient,active,2023-08-10
+PR0043,Provider 0043,Oncology,Inpatient,active,2025-06-22
+PR0044,Provider 0044,Pediatrics,Emergency,active,2025-01-24
+PR0045,Provider 0045,Neurology,Diagnostics,active,2020-02-16
+PR0046,Provider 0046,Family Medicine,Inpatient,active,2017-08-01
+PR0047,Provider 0047,Cardiology,Specialty Clinic,active,2023-03-14
+PR0048,Provider 0048,Pediatrics,Outpatient,active,2024-02-26
+PR0049,Provider 0049,Cardiology,Inpatient,active,2010-09-15
+PR0050,Provider 0050,Neurology,Outpatient,active,2016-03-31
+PR0051,Provider 0051,Dermatology,Inpatient,active,2022-10-22
+PR0052,Provider 0052,Endocrinology,Diagnostics,active,2020-08-10
+PR0053,Provider 0053,Oncology,Inpatient,active,2024-10-12
+PR0054,Provider 0054,Oncology,Emergency,active,2020-06-22
+PR0055,Provider 0055,Cardiology,Outpatient,active,2017-08-11
+PR0056,Provider 0056,Family Medicine,Inpatient,active,2022-01-11
+PR0057,Provider 0057,Dermatology,Inpatient,active,2016-03-31
+PR0058,Provider 0058,Dermatology,Inpatient,active,2011-09-10
+PR0059,Provider 0059,Dermatology,Specialty Clinic,active,2024-08-17
+PR0060,Provider 0060,Emergency Medicine,Outpatient,inactive,2015-04-21
+PR0061,Provider 0061,Internal Medicine,Diagnostics,active,2014-10-18
+PR0062,Provider 0062,Oncology,Outpatient,active,2010-01-18
+PR0063,Provider 0063,Oncology,Emergency,active,2020-03-16
+PR0064,Provider 0064,Orthopedics,Diagnostics,active,2022-06-19
+PR0065,Provider 0065,Dermatology,Inpatient,active,2014-11-19
+PR0066,Provider 0066,Cardiology,Specialty Clinic,active,2011-05-15
+PR0067,Provider 0067,Neurology,Outpatient,active,2020-09-10
+PR0068,Provider 0068,Emergency Medicine,Specialty Clinic,active,2021-05-23
+PR0069,Provider 0069,Family Medicine,Inpatient,active,2011-07-11
+PR0070,Provider 0070,Pediatrics,Diagnostics,active,2022-10-11
+PR0071,Provider 0071,Pediatrics,Specialty Clinic,active,2023-11-22
+PR0072,Provider 0072,Family Medicine,Diagnostics,active,2022-09-05
+PR0073,Provider 0073,Emergency Medicine,Emergency,active,2014-08-01
+PR0074,Provider 0074,Neurology,Inpatient,active,2012-12-08
+PR0075,Provider 0075,Orthopedics,Diagnostics,active,2011-08-18
+PR0076,Provider 0076,Cardiology,Diagnostics,active,2022-08-18
+PR0077,Provider 0077,Family Medicine,Outpatient,active,2021-05-07
+PR0078,Provider 0078,Orthopedics,Inpatient,active,2011-07-18
+PR0079,Provider 0079,Pediatrics,Emergency,active,2019-10-30
+PR0080,Provider 0080,Emergency Medicine,Emergency,active,2024-09-01
+PR0081,Provider 0081,Emergency Medicine,Outpatient,active,2022-06-10
+PR0082,Provider 0082,Orthopedics,Outpatient,active,2013-01-05
+PR0083,Provider 0083,Orthopedics,Outpatient,active,2022-05-30
+PR0084,Provider 0084,Internal Medicine,Emergency,active,2014-09-22
+PR0085,Provider 0085,Neurology,Inpatient,active,2015-12-03
+PR0086,Provider 0086,Emergency Medicine,Diagnostics,active,2011-02-21
+PR0087,Provider 0087,Family Medicine,Diagnostics,active,2010-12-28
+PR0088,Provider 0088,Cardiology,Emergency,active,2024-04-16
+PR0089,Provider 0089,Orthopedics,Inpatient,active,2022-05-17
+PR0090,Provider 0090,Oncology,Specialty Clinic,active,2011-09-09
+PR0091,Provider 0091,Internal Medicine,Specialty Clinic,active,2018-04-13
+PR0092,Provider 0092,Endocrinology,Specialty Clinic,active,2012-11-10
+PR0093,Provider 0093,Cardiology,Emergency,active,2010-11-23
+PR0094,Provider 0094,Neurology,Inpatient,active,2024-12-16
+PR0095,Provider 0095,Family Medicine,Emergency,active,2019-02-12
+PR0096,Provider 0096,Endocrinology,Inpatient,active,2015-04-24
+PR0097,Provider 0097,Internal Medicine,Inpatient,active,2010-07-23
+PR0098,Provider 0098,Internal Medicine,Emergency,active,2019-03-27
+PR0099,Provider 0099,Pediatrics,Emergency,active,2025-09-23
+PR0100,Provider 0100,Family Medicine,Diagnostics,active,2020-07-22
+PR0101,Provider 0101,Pediatrics,Inpatient,active,2020-04-28
+PR0102,Provider 0102,Neurology,Emergency,active,2015-02-08
+PR0103,Provider 0103,Pediatrics,Outpatient,active,2018-12-09
+PR0104,Provider 0104,Neurology,Emergency,active,2016-04-05
+PR0105,Provider 0105,Neurology,Specialty Clinic,active,2022-01-10
+PR0106,Provider 0106,Neurology,Outpatient,active,2015-11-10
+PR0107,Provider 0107,Internal Medicine,Specialty Clinic,inactive,2015-12-15
+PR0108,Provider 0108,Cardiology,Outpatient,active,2017-10-02
+PR0109,Provider 0109,Neurology,Diagnostics,active,2021-06-21
+PR0110,Provider 0110,Family Medicine,Diagnostics,active,2014-04-07
+PR0111,Provider 0111,Orthopedics,Outpatient,active,2010-01-14
+PR0112,Provider 0112,Emergency Medicine,Specialty Clinic,active,2025-01-15
+PR0113,Provider 0113,Pediatrics,Emergency,active,2024-11-24
+PR0114,Provider 0114,Neurology,Specialty Clinic,active,2012-10-17
+PR0115,Provider 0115,Orthopedics,Specialty Clinic,active,2019-02-28
+PR0116,Provider 0116,Neurology,Diagnostics,active,2022-06-08
+PR0117,Provider 0117,Internal Medicine,Inpatient,active,2018-07-03
+PR0118,Provider 0118,Internal Medicine,Specialty Clinic,active,2019-02-09
+PR0119,Provider 0119,Emergency Medicine,Outpatient,active,2014-09-18
+PR0120,Provider 0120,Oncology,Specialty Clinic,active,2017-03-24
+PR0121,Provider 0121,Dermatology,Diagnostics,active,2014-10-17
+PR0122,Provider 0122,Emergency Medicine,Diagnostics,active,2013-10-22
+PR0123,Provider 0123,Family Medicine,Emergency,active,2024-03-13
+PR0124,Provider 0124,Endocrinology,Emergency,active,2015-04-09
+PR0125,Provider 0125,Orthopedics,Inpatient,active,2013-04-22
+PR0126,Provider 0126,Cardiology,Outpatient,active,2020-08-28
+PR0127,Provider 0127,Endocrinology,Outpatient,active,2024-02-16
+PR0128,Provider 0128,Endocrinology,Inpatient,active,2018-08-12
+PR0129,Provider 0129,Dermatology,Diagnostics,active,2024-09-18
+PR0130,Provider 0130,Cardiology,Outpatient,active,2014-11-28
+PR0131,Provider 0131,Internal Medicine,Specialty Clinic,active,2022-07-03
+PR0132,Provider 0132,Pediatrics,Outpatient,active,2020-06-03
+PR0133,Provider 0133,Emergency Medicine,Specialty Clinic,active,2019-12-05
+PR0134,Provider 0134,Endocrinology,Specialty Clinic,active,2022-04-16
+PR0135,Provider 0135,Dermatology,Inpatient,active,2020-08-24
+PR0136,Provider 0136,Dermatology,Emergency,active,2024-04-20
+PR0137,Provider 0137,Orthopedics,Specialty Clinic,active,2015-05-14
+PR0138,Provider 0138,Orthopedics,Diagnostics,active,2016-05-29
+PR0139,Provider 0139,Pediatrics,Emergency,active,2022-02-11
+PR0140,Provider 0140,Family Medicine,Inpatient,active,2018-08-04
+PR0141,Provider 0141,Internal Medicine,Inpatient,active,2019-02-22
+PR0142,Provider 0142,Neurology,Specialty Clinic,active,2011-05-26
+PR0143,Provider 0143,Pediatrics,Diagnostics,active,2023-02-06
+PR0144,Provider 0144,Cardiology,Specialty Clinic,active,2010-02-18
+PR0145,Provider 0145,Neurology,Emergency,active,2019-05-26
+PR0146,Provider 0146,Emergency Medicine,Specialty Clinic,active,2014-12-12
+PR0147,Provider 0147,Dermatology,Inpatient,active,2020-11-22
+PR0148,Provider 0148,Cardiology,Diagnostics,active,2025-03-26
+PR0149,Provider 0149,Oncology,Inpatient,active,2012-11-11
+PR0150,Provider 0150,Endocrinology,Specialty Clinic,active,2018-11-02
+PR0151,Provider 0151,Endocrinology,Specialty Clinic,active,2011-11-19
+PR0152,Provider 0152,Oncology,Inpatient,active,2014-01-28
+PR0153,Provider 0153,Cardiology,Emergency,active,2014-09-30
+PR0154,Provider 0154,Dermatology,Emergency,active,2018-07-03
+PR0155,Provider 0155,Orthopedics,Diagnostics,active,2011-11-02
+PR0156,Provider 0156,Dermatology,Outpatient,active,2011-03-03
+PR0157,Provider 0157,Neurology,Inpatient,active,2024-08-14
+PR0158,Provider 0158,Cardiology,Outpatient,inactive,2014-06-22
+PR0159,Provider 0159,Cardiology,Specialty Clinic,active,2012-10-31
+PR0160,Provider 0160,Dermatology,Outpatient,active,2014-11-21
+PR0161,Provider 0161,Dermatology,Emergency,active,2013-10-06
+PR0162,Provider 0162,Endocrinology,Specialty Clinic,inactive,2012-07-27
+PR0163,Provider 0163,Internal Medicine,Emergency,active,2010-07-30
+PR0164,Provider 0164,Orthopedics,Specialty Clinic,active,2018-06-02
+PR0165,Provider 0165,Oncology,Inpatient,active,2025-06-28
+PR0166,Provider 0166,Pediatrics,Outpatient,active,2016-10-06
+PR0167,Provider 0167,Endocrinology,Outpatient,active,2022-09-11
+PR0168,Provider 0168,Cardiology,Emergency,active,2024-11-02
+PR0169,Provider 0169,Neurology,Outpatient,active,2017-08-27
+PR0170,Provider 0170,Cardiology,Diagnostics,active,2012-05-14
+PR0171,Provider 0171,Oncology,Emergency,active,2020-04-24
+PR0172,Provider 0172,Internal Medicine,Diagnostics,active,2021-09-14
+PR0173,Provider 0173,Orthopedics,Specialty Clinic,active,2022-01-26
+PR0174,Provider 0174,Dermatology,Diagnostics,active,2023-04-16
+PR0175,Provider 0175,Orthopedics,Emergency,active,2011-12-11
+PR0176,Provider 0176,Orthopedics,Diagnostics,active,2020-06-03
+PR0177,Provider 0177,Endocrinology,Specialty Clinic,active,2017-07-18
+PR0178,Provider 0178,Cardiology,Diagnostics,active,2014-01-29
+PR0179,Provider 0179,Dermatology,Inpatient,active,2015-10-18
+PR0180,Provider 0180,Neurology,Emergency,active,2025-09-23
+PR0181,Provider 0181,Orthopedics,Specialty Clinic,active,2014-04-15
+PR0182,Provider 0182,Family Medicine,Inpatient,active,2020-12-16
+PR0183,Provider 0183,Emergency Medicine,Inpatient,active,2024-06-27
+PR0184,Provider 0184,Dermatology,Diagnostics,active,2012-02-02
+PR0185,Provider 0185,Orthopedics,Inpatient,active,2015-06-17
+PR0186,Provider 0186,Orthopedics,Specialty Clinic,active,2022-06-01
+PR0187,Provider 0187,Emergency Medicine,Emergency,active,2022-05-06
+PR0188,Provider 0188,Neurology,Emergency,active,2016-01-29
+PR0189,Provider 0189,Orthopedics,Emergency,active,2014-04-27
+PR0190,Provider 0190,Neurology,Outpatient,active,2025-06-24
+PR0191,Provider 0191,Internal Medicine,Inpatient,active,2020-11-10
+PR0192,Provider 0192,Orthopedics,Specialty Clinic,inactive,2021-10-07
+PR0193,Provider 0193,Endocrinology,Emergency,inactive,2014-05-10
+PR0194,Provider 0194,Orthopedics,Inpatient,active,2016-10-12
+PR0195,Provider 0195,Cardiology,Specialty Clinic,active,2011-01-08
+PR0196,Provider 0196,Cardiology,Specialty Clinic,active,2012-10-31
+PR0197,Provider 0197,Dermatology,Outpatient,active,2022-11-16
+PR0198,Provider 0198,Orthopedics,Diagnostics,active,2017-08-23
+PR0199,Provider 0199,Internal Medicine,Outpatient,active,2020-09-18
+PR0200,Provider 0200,Family Medicine,Outpatient,active,2011-08-30
+PR0201,Provider 0201,Endocrinology,Outpatient,active,2022-08-16
+PR0202,Provider 0202,Orthopedics,Outpatient,inactive,2012-08-28
+PR0203,Provider 0203,Emergency Medicine,Diagnostics,active,2023-11-15
+PR0204,Provider 0204,Pediatrics,Specialty Clinic,active,2019-12-06
+PR0205,Provider 0205,Orthopedics,Specialty Clinic,inactive,2016-11-06
+PR0206,Provider 0206,Endocrinology,Specialty Clinic,active,2012-03-23
+PR0207,Provider 0207,Pediatrics,Inpatient,active,2011-10-28
+PR0208,Provider 0208,Internal Medicine,Inpatient,active,2011-09-07
+PR0209,Provider 0209,Internal Medicine,Outpatient,active,2025-06-18
+PR0210,Provider 0210,Endocrinology,Diagnostics,active,2015-03-12
+PR0211,Provider 0211,Orthopedics,Emergency,active,2020-03-08
+PR0212,Provider 0212,Family Medicine,Inpatient,active,2024-01-08
+PR0213,Provider 0213,Endocrinology,Inpatient,active,2022-03-20
+PR0214,Provider 0214,Pediatrics,Inpatient,active,2013-03-11
+PR0215,Provider 0215,Family Medicine,Outpatient,active,2016-11-24
+PR0216,Provider 0216,Endocrinology,Specialty Clinic,active,2019-11-07
+PR0217,Provider 0217,Family Medicine,Diagnostics,active,2025-09-11
+PR0218,Provider 0218,Oncology,Emergency,active,2021-01-28
+PR0219,Provider 0219,Dermatology,Outpatient,active,2019-09-10
+PR0220,Provider 0220,Neurology,Specialty Clinic,active,2012-01-19
+PR0221,Provider 0221,Pediatrics,Specialty Clinic,active,2010-06-19
+PR0222,Provider 0222,Orthopedics,Specialty Clinic,active,2013-12-06
+PR0223,Provider 0223,Dermatology,Specialty Clinic,active,2016-03-28
+PR0224,Provider 0224,Internal Medicine,Specialty Clinic,active,2021-01-11
+PR0225,Provider 0225,Family Medicine,Diagnostics,active,2017-06-23
+PR0226,Provider 0226,Neurology,Outpatient,active,2017-05-25
+PR0227,Provider 0227,Oncology,Diagnostics,active,2018-12-25
+PR0228,Provider 0228,Emergency Medicine,Outpatient,active,2017-01-20
+PR0229,Provider 0229,Orthopedics,Emergency,active,2019-01-25
+PR0230,Provider 0230,Emergency Medicine,Outpatient,active,2022-03-03
+PR0231,Provider 0231,Dermatology,Diagnostics,active,2021-08-18
+PR0232,Provider 0232,Neurology,Specialty Clinic,active,2024-01-11
+PR0233,Provider 0233,Dermatology,Outpatient,active,2022-04-27
+PR0234,Provider 0234,Internal Medicine,Emergency,active,2025-08-30
+PR0235,Provider 0235,Dermatology,Outpatient,active,2024-02-18
+PR0236,Provider 0236,Endocrinology,Inpatient,active,2016-12-20
+PR0237,Provider 0237,Emergency Medicine,Outpatient,active,2012-02-03
+PR0238,Provider 0238,Pediatrics,Outpatient,active,2012-08-20
+PR0239,Provider 0239,Internal Medicine,Diagnostics,active,2016-07-18
+PR0240,Provider 0240,Emergency Medicine,Emergency,active,2020-10-27
+PR0241,Provider 0241,Dermatology,Inpatient,active,2013-03-30
+PR0242,Provider 0242,Oncology,Inpatient,active,2021-05-26
+PR0243,Provider 0243,Internal Medicine,Outpatient,active,2019-04-23
+PR0244,Provider 0244,Neurology,Specialty Clinic,active,2010-01-22
+PR0245,Provider 0245,Orthopedics,Emergency,active,2023-01-03
+PR0246,Provider 0246,Dermatology,Inpatient,active,2020-11-11
+PR0247,Provider 0247,Neurology,Emergency,active,2022-03-10
+PR0248,Provider 0248,Oncology,Diagnostics,active,2014-03-26
+PR0249,Provider 0249,Pediatrics,Specialty Clinic,active,2019-03-20
+PR0250,Provider 0250,Cardiology,Emergency,active,2025-10-26
+PR0251,Provider 0251,Oncology,Diagnostics,inactive,2024-08-16
+PR0252,Provider 0252,Internal Medicine,Diagnostics,inactive,2012-10-31
+PR0253,Provider 0253,Emergency Medicine,Specialty Clinic,active,2012-04-02
+PR0254,Provider 0254,Dermatology,Outpatient,active,2020-04-01
+PR0255,Provider 0255,Cardiology,Inpatient,active,2024-09-07
+PR0256,Provider 0256,Internal Medicine,Outpatient,active,2015-12-12
+PR0257,Provider 0257,Neurology,Specialty Clinic,active,2024-07-29
+PR0258,Provider 0258,Family Medicine,Emergency,active,2021-12-20
+PR0259,Provider 0259,Oncology,Emergency,active,2020-12-11
+PR0260,Provider 0260,Emergency Medicine,Outpatient,active,2015-04-08
+PR0261,Provider 0261,Orthopedics,Inpatient,active,2019-09-26
+PR0262,Provider 0262,Family Medicine,Outpatient,active,2025-07-26
+PR0263,Provider 0263,Orthopedics,Outpatient,active,2011-04-05
+PR0264,Provider 0264,Orthopedics,Emergency,active,2013-04-07
+PR0265,Provider 0265,Pediatrics,Specialty Clinic,active,2025-04-17
+PR0266,Provider 0266,Internal Medicine,Inpatient,active,2023-09-02
+PR0267,Provider 0267,Oncology,Specialty Clinic,active,2021-02-28
+PR0268,Provider 0268,Endocrinology,Inpatient,active,2024-04-22
+PR0269,Provider 0269,Orthopedics,Diagnostics,active,2010-03-18
+PR0270,Provider 0270,Dermatology,Emergency,active,2013-07-18
+PR0271,Provider 0271,Family Medicine,Diagnostics,inactive,2023-03-07
+PR0272,Provider 0272,Orthopedics,Diagnostics,active,2020-03-31
+PR0273,Provider 0273,Orthopedics,Inpatient,inactive,2020-11-02
+PR0274,Provider 0274,Family Medicine,Inpatient,active,2018-01-19
+PR0275,Provider 0275,Endocrinology,Emergency,inactive,2016-08-15
+PR0276,Provider 0276,Cardiology,Diagnostics,active,2022-09-11
+PR0277,Provider 0277,Cardiology,Specialty Clinic,active,2016-06-02
+PR0278,Provider 0278,Pediatrics,Specialty Clinic,active,2014-11-30
+PR0279,Provider 0279,Pediatrics,Specialty Clinic,active,2024-10-14
+PR0280,Provider 0280,Internal Medicine,Outpatient,active,2024-06-30
+PR0281,Provider 0281,Cardiology,Emergency,active,2010-10-01
+PR0282,Provider 0282,Endocrinology,Emergency,active,2012-01-09
+PR0283,Provider 0283,Orthopedics,Emergency,active,2013-12-09
+PR0284,Provider 0284,Pediatrics,Inpatient,active,2018-03-17
+PR0285,Provider 0285,Emergency Medicine,Specialty Clinic,active,2013-09-09
+PR0286,Provider 0286,Orthopedics,Diagnostics,inactive,2016-08-14
+PR0287,Provider 0287,Neurology,Outpatient,active,2011-09-09
+PR0288,Provider 0288,Internal Medicine,Inpatient,active,2025-02-15
+PR0289,Provider 0289,Oncology,Specialty Clinic,active,2018-11-07
+PR0290,Provider 0290,Cardiology,Emergency,active,2020-03-14
+PR0291,Provider 0291,Neurology,Emergency,active,2024-04-27
+PR0292,Provider 0292,Neurology,Outpatient,active,2020-07-29
+PR0293,Provider 0293,Cardiology,Specialty Clinic,active,2022-08-05
+PR0294,Provider 0294,Neurology,Specialty Clinic,active,2011-06-02
+PR0295,Provider 0295,Dermatology,Emergency,active,2012-08-13
+PR0296,Provider 0296,Internal Medicine,Outpatient,inactive,2016-10-29
+PR0297,Provider 0297,Dermatology,Outpatient,active,2022-01-21
+PR0298,Provider 0298,Internal Medicine,Diagnostics,active,2025-01-14
+PR0299,Provider 0299,Emergency Medicine,Diagnostics,active,2013-06-19
+PR0300,Provider 0300,Oncology,Outpatient,active,2023-10-23
+PR0301,Provider 0301,Oncology,Emergency,active,2018-04-24
+PR0302,Provider 0302,Pediatrics,Diagnostics,active,2015-04-19
+PR0303,Provider 0303,Neurology,Outpatient,inactive,2018-03-29
+PR0304,Provider 0304,Emergency Medicine,Emergency,active,2016-03-10
+PR0305,Provider 0305,Pediatrics,Outpatient,inactive,2020-03-14
+PR0306,Provider 0306,Family Medicine,Inpatient,active,2023-05-24
+PR0307,Provider 0307,Cardiology,Outpatient,active,2015-06-19
+PR0308,Provider 0308,Internal Medicine,Specialty Clinic,active,2022-06-07
+PR0309,Provider 0309,Pediatrics,Specialty Clinic,active,2015-03-24
+PR0310,Provider 0310,Neurology,Inpatient,active,2023-05-15
+PR0311,Provider 0311,Cardiology,Emergency,active,2013-03-31
+PR0312,Provider 0312,Internal Medicine,Specialty Clinic,active,2013-11-30
+PR0313,Provider 0313,Family Medicine,Outpatient,active,2018-01-13
+PR0314,Provider 0314,Pediatrics,Specialty Clinic,active,2013-11-28
+PR0315,Provider 0315,Orthopedics,Outpatient,active,2019-06-11
+PR0316,Provider 0316,Emergency Medicine,Outpatient,active,2020-09-06
+PR0317,Provider 0317,Dermatology,Emergency,active,2012-06-12
+PR0318,Provider 0318,Dermatology,Specialty Clinic,active,2023-10-18
+PR0319,Provider 0319,Cardiology,Specialty Clinic,active,2024-06-06
+PR0320,Provider 0320,Cardiology,Outpatient,inactive,2019-01-04
+PR0321,Provider 0321,Oncology,Outpatient,active,2019-12-13
+PR0322,Provider 0322,Family Medicine,Outpatient,active,2013-04-30
+PR0323,Provider 0323,Family Medicine,Inpatient,active,2024-03-14
+PR0324,Provider 0324,Endocrinology,Specialty Clinic,active,2018-07-18
+PR0325,Provider 0325,Endocrinology,Specialty Clinic,active,2021-05-04
+PR0326,Provider 0326,Endocrinology,Diagnostics,active,2025-09-27
+PR0327,Provider 0327,Family Medicine,Specialty Clinic,active,2014-10-28
+PR0328,Provider 0328,Oncology,Diagnostics,active,2019-04-13
+PR0329,Provider 0329,Neurology,Diagnostics,active,2012-02-18
+PR0330,Provider 0330,Neurology,Diagnostics,active,2015-09-20
+PR0331,Provider 0331,Neurology,Inpatient,active,2020-08-21
+PR0332,Provider 0332,Family Medicine,Outpatient,active,2012-02-03
+PR0333,Provider 0333,Oncology,Outpatient,active,2018-05-11
+PR0334,Provider 0334,Internal Medicine,Specialty Clinic,active,2022-08-06
+PR0335,Provider 0335,Emergency Medicine,Emergency,active,2019-03-20
+PR0336,Provider 0336,Neurology,Diagnostics,active,2011-02-26
+PR0337,Provider 0337,Orthopedics,Specialty Clinic,active,2012-04-28
+PR0338,Provider 0338,Endocrinology,Specialty Clinic,active,2024-09-23
+PR0339,Provider 0339,Dermatology,Inpatient,active,2017-11-08
+PR0340,Provider 0340,Emergency Medicine,Emergency,active,2016-04-01
+PR0341,Provider 0341,Endocrinology,Inpatient,active,2022-08-01
+PR0342,Provider 0342,Endocrinology,Specialty Clinic,active,2022-06-27
+PR0343,Provider 0343,Cardiology,Specialty Clinic,active,2025-07-21
+PR0344,Provider 0344,Orthopedics,Outpatient,active,2025-10-05
+PR0345,Provider 0345,Orthopedics,Emergency,active,2014-01-26
+PR0346,Provider 0346,Internal Medicine,Specialty Clinic,active,2011-07-25
+PR0347,Provider 0347,Internal Medicine,Outpatient,active,2021-11-24
+PR0348,Provider 0348,Pediatrics,Diagnostics,active,2017-08-24
+PR0349,Provider 0349,Internal Medicine,Emergency,active,2017-04-11
+PR0350,Provider 0350,Endocrinology,Specialty Clinic,active,2011-03-07
+PR0351,Provider 0351,Internal Medicine,Inpatient,active,2011-02-12
+PR0352,Provider 0352,Family Medicine,Emergency,active,2019-07-06
+PR0353,Provider 0353,Dermatology,Specialty Clinic,active,2016-02-16
+PR0354,Provider 0354,Pediatrics,Specialty Clinic,active,2019-08-23
+PR0355,Provider 0355,Family Medicine,Emergency,active,2023-04-21
+PR0356,Provider 0356,Dermatology,Specialty Clinic,active,2011-01-08
+PR0357,Provider 0357,Pediatrics,Diagnostics,inactive,2011-03-25
+PR0358,Provider 0358,Cardiology,Inpatient,active,2014-09-27
+PR0359,Provider 0359,Internal Medicine,Emergency,active,2012-09-09
+PR0360,Provider 0360,Cardiology,Diagnostics,active,2013-12-10
+PR0361,Provider 0361,Internal Medicine,Diagnostics,active,2015-03-01
+PR0362,Provider 0362,Emergency Medicine,Specialty Clinic,active,2017-12-11
+PR0363,Provider 0363,Family Medicine,Diagnostics,active,2010-12-13
+PR0364,Provider 0364,Oncology,Outpatient,active,2011-09-30
+PR0365,Provider 0365,Neurology,Specialty Clinic,active,2019-01-27
+PR0366,Provider 0366,Oncology,Emergency,active,2010-06-20
+PR0367,Provider 0367,Neurology,Inpatient,active,2023-11-12
+PR0368,Provider 0368,Dermatology,Emergency,active,2012-05-17
+PR0369,Provider 0369,Pediatrics,Diagnostics,active,2021-10-02
+PR0370,Provider 0370,Family Medicine,Diagnostics,active,2017-08-13
+PR0371,Provider 0371,Pediatrics,Emergency,active,2011-09-18
+PR0372,Provider 0372,Emergency Medicine,Outpatient,active,2014-05-08
+PR0373,Provider 0373,Neurology,Emergency,active,2024-06-23
+PR0374,Provider 0374,Internal Medicine,Inpatient,active,2015-09-28
+PR0375,Provider 0375,Pediatrics,Inpatient,active,2024-09-13
+PR0376,Provider 0376,Family Medicine,Inpatient,inactive,2024-02-01
+PR0377,Provider 0377,Dermatology,Diagnostics,active,2022-12-31
+PR0378,Provider 0378,Dermatology,Specialty Clinic,active,2024-01-04
+PR0379,Provider 0379,Neurology,Emergency,active,2011-07-14
+PR0380,Provider 0380,Dermatology,Diagnostics,active,2016-02-29
+PR0381,Provider 0381,Endocrinology,Outpatient,active,2011-08-31
+PR0382,Provider 0382,Orthopedics,Diagnostics,active,2011-04-12
+PR0383,Provider 0383,Neurology,Emergency,active,2012-01-10
+PR0384,Provider 0384,Endocrinology,Specialty Clinic,active,2020-05-18
+PR0385,Provider 0385,Endocrinology,Specialty Clinic,inactive,2010-12-03
+PR0386,Provider 0386,Dermatology,Specialty Clinic,active,2017-03-18
+PR0387,Provider 0387,Endocrinology,Diagnostics,active,2011-05-22
+PR0388,Provider 0388,Dermatology,Outpatient,active,2017-09-14
+PR0389,Provider 0389,Family Medicine,Specialty Clinic,active,2010-11-17
+PR0390,Provider 0390,Pediatrics,Diagnostics,inactive,2021-10-03
+PR0391,Provider 0391,Emergency Medicine,Specialty Clinic,active,2018-05-13
+PR0392,Provider 0392,Orthopedics,Diagnostics,active,2017-08-03
+PR0393,Provider 0393,Endocrinology,Outpatient,active,2024-07-08
+PR0394,Provider 0394,Neurology,Outpatient,active,2022-07-07
+PR0395,Provider 0395,Oncology,Emergency,active,2024-09-22
+PR0396,Provider 0396,Endocrinology,Inpatient,active,2023-01-26
+PR0397,Provider 0397,Internal Medicine,Emergency,active,2024-09-18
+PR0398,Provider 0398,Oncology,Inpatient,active,2011-11-26
+PR0399,Provider 0399,Orthopedics,Specialty Clinic,active,2017-05-14
+PR0400,Provider 0400,Internal Medicine,Specialty Clinic,active,2025-01-14
+PR0401,Provider 0401,Oncology,Specialty Clinic,active,2018-02-18
+PR0402,Provider 0402,Orthopedics,Inpatient,inactive,2017-08-31
+PR0403,Provider 0403,Dermatology,Inpatient,active,2013-01-31
+PR0404,Provider 0404,Internal Medicine,Outpatient,active,2012-04-08
+PR0405,Provider 0405,Emergency Medicine,Specialty Clinic,active,2021-10-23
+PR0406,Provider 0406,Cardiology,Emergency,active,2023-11-11
+PR0407,Provider 0407,Internal Medicine,Specialty Clinic,active,2013-08-22
+PR0408,Provider 0408,Internal Medicine,Specialty Clinic,active,2013-09-18
+PR0409,Provider 0409,Dermatology,Outpatient,active,2025-03-03
+PR0410,Provider 0410,Pediatrics,Diagnostics,active,2020-01-26
+PR0411,Provider 0411,Pediatrics,Specialty Clinic,active,2020-07-09
+PR0412,Provider 0412,Pediatrics,Emergency,active,2022-10-17
+PR0413,Provider 0413,Dermatology,Diagnostics,active,2018-07-26
+PR0414,Provider 0414,Emergency Medicine,Specialty Clinic,active,2013-08-20
+PR0415,Provider 0415,Pediatrics,Specialty Clinic,active,2015-08-11
+PR0416,Provider 0416,Cardiology,Diagnostics,active,2022-06-09
+PR0417,Provider 0417,Family Medicine,Specialty Clinic,active,2016-05-24
+PR0418,Provider 0418,Family Medicine,Inpatient,active,2021-07-07
+PR0419,Provider 0419,Internal Medicine,Diagnostics,active,2014-12-24
+PR0420,Provider 0420,Dermatology,Emergency,active,2019-04-22
+PR0421,Provider 0421,Cardiology,Diagnostics,active,2015-04-16
+PR0422,Provider 0422,Oncology,Outpatient,active,2010-08-19
+PR0423,Provider 0423,Neurology,Outpatient,active,2024-07-30
+PR0424,Provider 0424,Neurology,Inpatient,active,2016-06-08
+PR0425,Provider 0425,Dermatology,Inpatient,active,2020-07-09
+PR0426,Provider 0426,Dermatology,Specialty Clinic,active,2011-10-12
+PR0427,Provider 0427,Cardiology,Emergency,active,2013-05-09
+PR0428,Provider 0428,Emergency Medicine,Specialty Clinic,active,2012-06-29
+PR0429,Provider 0429,Orthopedics,Inpatient,active,2011-01-27
+PR0430,Provider 0430,Pediatrics,Diagnostics,active,2023-12-21
+PR0431,Provider 0431,Dermatology,Outpatient,active,2021-03-18
+PR0432,Provider 0432,Endocrinology,Specialty Clinic,active,2021-07-23
+PR0433,Provider 0433,Endocrinology,Inpatient,active,2016-07-14
+PR0434,Provider 0434,Oncology,Outpatient,active,2015-05-25
+PR0435,Provider 0435,Endocrinology,Diagnostics,active,2024-12-27
+PR0436,Provider 0436,Family Medicine,Specialty Clinic,inactive,2011-07-09
+PR0437,Provider 0437,Emergency Medicine,Specialty Clinic,active,2021-05-21
+PR0438,Provider 0438,Emergency Medicine,Outpatient,active,2020-07-18
+PR0439,Provider 0439,Cardiology,Diagnostics,inactive,2015-09-09
+PR0440,Provider 0440,Cardiology,Emergency,active,2017-09-25
+PR0441,Provider 0441,Pediatrics,Outpatient,active,2017-06-16
+PR0442,Provider 0442,Internal Medicine,Outpatient,active,2017-08-05
+PR0443,Provider 0443,Internal Medicine,Diagnostics,inactive,2020-09-25
+PR0444,Provider 0444,Internal Medicine,Inpatient,active,2020-04-07
+PR0445,Provider 0445,Cardiology,Emergency,active,2014-06-23
+PR0446,Provider 0446,Cardiology,Emergency,active,2021-07-24
+PR0447,Provider 0447,Oncology,Specialty Clinic,active,2010-10-27
+PR0448,Provider 0448,Pediatrics,Emergency,active,2011-01-27
+PR0449,Provider 0449,Neurology,Emergency,active,2018-04-03
+PR0450,Provider 0450,Oncology,Diagnostics,active,2018-09-03
+PR0451,Provider 0451,Neurology,Inpatient,active,2021-02-27
+PR0452,Provider 0452,Neurology,Specialty Clinic,active,2011-11-08
+PR0453,Provider 0453,Oncology,Outpatient,active,2014-01-18
+PR0454,Provider 0454,Emergency Medicine,Emergency,active,2011-10-18
+PR0455,Provider 0455,Neurology,Emergency,active,2023-07-08
+PR0456,Provider 0456,Oncology,Inpatient,active,2017-11-19
+PR0457,Provider 0457,Dermatology,Outpatient,active,2017-11-28
+PR0458,Provider 0458,Endocrinology,Diagnostics,active,2011-04-15
+PR0459,Provider 0459,Family Medicine,Diagnostics,active,2025-03-28
+PR0460,Provider 0460,Internal Medicine,Outpatient,active,2023-08-18
+PR0461,Provider 0461,Dermatology,Outpatient,active,2015-04-18
+PR0462,Provider 0462,Neurology,Emergency,active,2022-09-21
+PR0463,Provider 0463,Cardiology,Specialty Clinic,active,2020-02-03
+PR0464,Provider 0464,Neurology,Emergency,active,2011-09-22
+PR0465,Provider 0465,Endocrinology,Inpatient,active,2018-12-05
+PR0466,Provider 0466,Neurology,Emergency,active,2012-07-18
+PR0467,Provider 0467,Cardiology,Inpatient,active,2018-09-06
+PR0468,Provider 0468,Emergency Medicine,Outpatient,active,2015-11-03
+PR0469,Provider 0469,Dermatology,Inpatient,inactive,2016-05-28
+PR0470,Provider 0470,Dermatology,Inpatient,active,2011-08-30
+PR0471,Provider 0471,Dermatology,Inpatient,active,2019-12-26
+PR0472,Provider 0472,Family Medicine,Emergency,active,2025-11-30
+PR0473,Provider 0473,Family Medicine,Specialty Clinic,active,2016-09-23
+PR0474,Provider 0474,Internal Medicine,Inpatient,active,2021-05-30
+PR0475,Provider 0475,Pediatrics,Outpatient,inactive,2013-02-11
+PR0476,Provider 0476,Pediatrics,Diagnostics,active,2022-06-05
+PR0477,Provider 0477,Endocrinology,Emergency,active,2022-05-17
+PR0478,Provider 0478,Internal Medicine,Specialty Clinic,active,2011-06-23
+PR0479,Provider 0479,Orthopedics,Diagnostics,inactive,2020-09-26
+PR0480,Provider 0480,Emergency Medicine,Diagnostics,active,2022-11-23
+PR0481,Provider 0481,Family Medicine,Inpatient,inactive,2024-05-29
+PR0482,Provider 0482,Family Medicine,Diagnostics,active,2021-08-09
+PR0483,Provider 0483,Neurology,Inpatient,active,2022-05-14
+PR0484,Provider 0484,Endocrinology,Inpatient,active,2012-11-23
+PR0485,Provider 0485,Oncology,Specialty Clinic,active,2011-03-30
+PR0486,Provider 0486,Family Medicine,Specialty Clinic,active,2013-09-10
+PR0487,Provider 0487,Internal Medicine,Emergency,active,2015-01-22
+PR0488,Provider 0488,Neurology,Specialty Clinic,active,2011-10-09
+PR0489,Provider 0489,Orthopedics,Inpatient,active,2022-05-10
+PR0490,Provider 0490,Orthopedics,Inpatient,active,2023-10-13
+PR0491,Provider 0491,Emergency Medicine,Outpatient,active,2013-10-13
+PR0492,Provider 0492,Endocrinology,Specialty Clinic,active,2024-10-10
+PR0493,Provider 0493,Endocrinology,Specialty Clinic,active,2022-08-23
+PR0494,Provider 0494,Cardiology,Outpatient,active,2024-05-21
+PR0495,Provider 0495,Endocrinology,Emergency,active,2022-10-31
+PR0496,Provider 0496,Oncology,Specialty Clinic,active,2021-03-03
+PR0497,Provider 0497,Emergency Medicine,Emergency,active,2016-10-10
+PR0498,Provider 0498,Dermatology,Inpatient,active,2025-05-13
+PR0499,Provider 0499,Oncology,Emergency,active,2025-06-12
+PR0500,Provider 0500,Cardiology,Inpatient,active,2020-11-10

@@ -1,0 +1,86 @@
+
+version: 2
+
+models:
+  - name: dim_patient
+    description: "Patient dimension for healthcare analytics."
+    columns:
+      - name: patient_id
+        data_tests:
+          - not_null
+          - unique
+
+  - name: dim_provider
+    description: "Healthcare provider dimension."
+    columns:
+      - name: provider_id
+        data_tests:
+          - not_null
+          - unique
+
+  - name: fct_encounter
+    description: "One row per accepted patient encounter."
+    columns:
+      - name: encounter_id
+        data_tests:
+          - not_null
+          - unique
+      - name: patient_id
+        data_tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('dim_patient')
+                field: patient_id
+      - name: provider_id
+        data_tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('dim_provider')
+                field: provider_id
+
+  - name: fct_claim
+    description: "One row per accepted insurance claim."
+    columns:
+      - name: claim_id
+        data_tests:
+          - not_null
+          - unique
+      - name: encounter_id
+        data_tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('fct_encounter')
+                field: encounter_id
+  - name: fct_patient_monthly_activity
+    description: >
+      Monthly activity for patients with at least one accepted
+      encounter, including recency and potential care-gap indicators.
+
+    columns:
+      - name: patient_id
+        data_tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('dim_patient')
+                field: patient_id
+
+      - name: activity_month
+        data_tests:
+          - not_null
+
+      - name: total_encounters
+        data_tests:
+          - not_null
+
+      - name: days_since_last_encounter
+        data_tests:
+          - not_null
+
+    data_tests:
+      - unique:
+          arguments:
+            column_name: "patient_id || '-' || cast(activity_month as varchar)"

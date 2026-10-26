@@ -1,0 +1,67 @@
+
+version: 2
+
+models:
+  - name: int_patients_clean
+    description: "Patient records cleaned for analytical use."
+    columns:
+      - name: patient_id
+        data_tests:
+          - not_null
+          - unique
+
+  - name: int_providers_clean
+    description: "Deduplicated provider records."
+    columns:
+      - name: provider_id
+        data_tests:
+          - not_null
+          - unique
+
+  - name: int_encounters_clean
+    description: "Encounters with valid patient and provider references."
+    columns:
+      - name: encounter_id
+        data_tests:
+          - not_null
+          - unique
+
+      - name: patient_id
+        data_tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('int_patients_clean')
+                field: patient_id
+
+      - name: provider_id
+        data_tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('int_providers_clean')
+                field: provider_id
+
+  - name: int_claims_clean
+    description: "Deduplicated claims with valid encounter references and amounts."
+    columns:
+      - name: claim_id
+        data_tests:
+          - not_null
+          - unique
+
+      - name: encounter_id
+        data_tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('int_encounters_clean')
+                field: encounter_id
+
+      - name: billed_amount
+        data_tests:
+          - not_null
+
+      - name: paid_amount
+        data_tests:
+          - not_null
